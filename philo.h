@@ -57,7 +57,7 @@ typedef struct s_data
 } t_data;
 
 int check(int ac);
-int	check_av(char **av);
+int	check_av(int ac, char **av, t_data *philo);
 int	is_dead(t_philo *philo);
 int	special_case(t_philo *philo);
 int are_forks_available(t_philo *philo);
